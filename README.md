@@ -1,25 +1,26 @@
-##1. Package Structure
+###1. Package Structure
+
     src
-      com.client.app            - contain Application class only
-      com.client.app.views      - contain all activities
-      com.client.app.fragments  - contain all fragments
-      com.client.app.webservice - contain all web services
-      com.client.app.adapters   - contain all adapters
-      com.client.app.db         - contain all db related classes
-      com.client.app.models     - contain all models
-      com.client.app.utils      - contain utility/misc classes
-      com.client.app.widgets    - contain extended/custom views
-      com.client.app.services   - contain all services
-      com.client.app.animation  - contain all animations
+      `com.client.app`            - contain Application class only
+      `com.client.app.views`      - contain all activities
+      `com.client.app.fragments`  - contain all fragments
+      `com.client.app.webservice` - contain all web services
+      `com.client.app.adapters`   - contain all adapters
+      `com.client.app.db`         - contain all db related classes
+      `com.client.app.models`     - contain all models
+      `com.client.app.utils`      - contain utility/misc classes
+      `com.client.app.widgets`    - contain extended/custom views
+      `com.client.app.services`   - contain all services
+      `com.client.app.animation`  - contain all animations
 
-##2. Naming convention for Xml files
+###2. Naming convention for Xml files
 
-  * activity_<ACTIVITY NAME>.xml - for all activities
-  * dialog_<DIALOG NAME>.xml  - for all custom dialogs
-  * row_<LIST_NAME>.xml - for custom row for listview
-  * fragment_<FRAGMENT_NAME>.xml - for all fragments
+  * `activity_<ACTIVITY NAME>.xml` - for all activities
+  * `dialog_<DIALOG NAME>.xml`     - for all custom dialogs
+  * `row_<LIST_NAME>.xml`          - for custom row for listview
+  * `fragment_<FRAGMENT_NAME>.xml` - for all fragments
 
-##3. Naming convention for component/widget in xml files.
+###3. Naming convention for component/widget in xml files.
 
   * all component for x activity must be start with activity name
   * all component should have prefix or short name like btn for button
